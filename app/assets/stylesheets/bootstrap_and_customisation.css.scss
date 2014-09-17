@@ -1,11 +1,18 @@
-$body-bg: #3498db;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
-$navbar-default-bg: #ecf0f1;
+$font-family-sans-serif: 'Open Sans', sans-serif;
+$body-bg: #ecf0f1;
+
+$navbar-default-bg: #fff;
 $navbar-default-link-color: #2c3e50;
 $border-radius-base: 0px;
 
-$jumbotron-bg: #ecf0f1;
+$jumbotron-bg: #fff;
 $jumbotron-heading-color: #2c3e50;
 $btn-primary-bg: #8e44ad;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
